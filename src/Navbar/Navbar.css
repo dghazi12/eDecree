@@ -1,0 +1,32 @@
+.navbar-container {
+  height: 100vh;
+  position: absolute;
+  width: 80px;
+  text-align: center;
+  background-color: #8cc0ff;
+}
+
+.navbar-font {
+  font-size: 40px;
+  margin-top: 40px;
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    width: 60px;
+  }
+
+  .navbar-font {
+    font-size: 30px;
+    display: flex;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-font {
+    font-size: 25px;
+  }
+}

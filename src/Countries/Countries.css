@@ -1,0 +1,72 @@
+.countries-header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.table-container {
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+}
+
+.search-bar {
+  height: 30px;
+  width: 250px;
+  align-items: center;
+}
+
+.dropdown {
+  height: 35px;
+  width: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  table {
+    width: 90%;
+  }
+
+  .table-container {
+    margin-left: 100px;
+  }
+
+  .search-bar {
+    height: 30px;
+    width: 200px;
+    align-items: center;
+  }
+
+  .dropdown {
+    height: 35px;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .search-bar {
+    height: 30px;
+    width: 200px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .search-bar {
+    height: 30px;
+    width: 150px;
+    align-items: center;
+  }
+  .table-container {
+    margin-left: 80px;
+  }
+}

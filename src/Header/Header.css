@@ -1,0 +1,57 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+  background-color: #8cc0ff;
+  height: 80px;
+}
+
+.compass {
+  font-size: 40px;
+  color: #7a1f1c;
+  cursor: pointer;
+}
+
+.logout {
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  color: white;
+  background-color: #7a1f1c;
+}
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    height: 60px;
+  }
+
+  .main-title {
+    font-size: 25px;
+  }
+
+  .compass {
+    font-size: 30px;
+  }
+
+  .logout {
+    height: 30px;
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-title {
+    font-size: 20px;
+  }
+
+  .compass {
+    font-size: 25px;
+  }
+
+  .logout {
+    height: 25px;
+    width: 60px;
+  }
+}
