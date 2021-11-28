@@ -15,7 +15,7 @@
 
 ### Clone
 
-- Clone this project to your local machine ``
+- Clone this project to your local machine `https://github.com/dghazi12/eDecree.git`
 
 ### Setup
 
